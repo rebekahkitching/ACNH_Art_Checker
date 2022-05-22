@@ -1,0 +1,72 @@
+@font-face {
+     font-family: "FOT-RodinBokutoh Pro EB";
+     src: url("../fonts/FOT-RodinBokutoh\ Pro\ EB.otf");
+}
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-image: url('../images/acnh\ leaf\ teal.png');
+}
+
+.container{
+     background-color: RGB(207,194,167);
+     font-family: "FOT-RodinBokutoh Pro EB";
+     display:grid;
+     align-content:space-around;
+     margin: 30px;
+     height:800px;
+}
+
+h1{
+     text-align:center;
+     color:RGB(108,191,183);
+     font-size:50px;
+}
+
+.intro{
+     margin-left:20px;
+     margin-right:20px;
+     color:RGB(183,146,170);
+     font-size:25px;
+}
+
+.input{
+     width:fit-content;
+     margin-left:15px;
+}
+
+.button{
+     width:fit-content;
+     margin-left:15px;
+}
+
+.fake{
+     margin-left: 10px;
+     color:RGB(110,85,75);
+     font-size:20px;
+}
+
+.art{
+     margin-left: 10px;
+     color:RGB(110,85,75);
+     font-size:20px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+   
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
