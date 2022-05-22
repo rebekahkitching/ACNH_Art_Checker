@@ -4,7 +4,7 @@ This quick checker allows you to see if Redd's latest piece of art is legit or n
 
 Link to project: 
 
-<img> src = 'project_screenshot.png' </img>
+<img width="992" alt="project_screenshot" src="https://user-images.githubusercontent.com/101137372/169720861-50660965-c6c4-4b21-a473-0ea133196d9a.png">
 
 How It's Made:
 
