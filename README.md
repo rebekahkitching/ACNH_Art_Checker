@@ -4,7 +4,7 @@ This quick checker allows you to see if Redd's latest piece of art is legit or n
 
 Link to project: 
 
-<img> src = 'project_screenshot.png' </img>
+<img> src = 'added_dropdown.png' </img>
 
 How It's Made:
 
@@ -15,5 +15,5 @@ This is a super bare-bones project I use myself all the time. It uses the lovely
 
 What I would add:
 
-I'd like to change this to a drop-down list instead of the text input so it's easier for the user to find their piece. 
+(completed 06/15/2022) I'd like to change this to a drop-down list instead of the text input so it's easier for the user to find their piece. 
 

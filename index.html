@@ -1,27 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<meta charset="utf-8">
-    	<meta name="ACNH Art Checker" content="Use this to make sure your Redd's art is legit">
-    	<meta name="ACNH Art Redd" content="one, two, three">
 
-		<title>ACNH Art Checker</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="ACNH Art Checker" content="Use this to make sure your Redd's art is legit">
+	<meta name="ACNH Art Redd" content="one, two, three">
 
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body>
-		<div class="container">
-			<h1> The ACNH Art Checker </h1>
-			<p class="intro"> Eyeing Redd's latest piece of art but unsure if it's legit? We have you covered! Use the search box to find the piece you're interested in and see if there's a fake, you can also view the original art to compare. </p>
-			<input class="input" type="text" name="" value="" id="artNameInput" />
-			<button class="button" id="artSubmitButton" type="button" name="button">Check</button>
+	<title>ACNH Art Checker</title>
 
-			<h3 class="fake">Is there a fake? <span id="fakeCheck"></span></h3>
-			<h2 class="art"> Piece of art: <span id="artNameOutput"></span> </h2>
-			<img class="artImage" id="artImage" src="" alt="" />
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<h1> The ACNH Art Checker </h1>
+		<p class="intro"> Eyeing Redd's latest piece of art but unsure if it's legit? We have you covered! Use the
+			dropdown to find the piece you're interested in and see if there's a fake, you can also view the original
+			art to compare. </p>
+
+		<div class="dropDown">
+			<span> Select an art piece: </span>
+			<select id="art-pieces" value="">
+				<option value=""></option>
+			</select>
 		</div>
-		<script type="text/javascript" src="js/main.js"></script>
-	</body>
+
+
+		<h3 class="fake">Is there a fake? <span id="fakeCheck"></span></h3>
+		<h2 class="art"> Piece of art: <span id="artNameOutput"></span> </h2>
+		<img class="artImage" id="artImage" src="" alt="" />
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
 </html>
