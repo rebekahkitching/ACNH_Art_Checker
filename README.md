@@ -4,7 +4,7 @@ This quick checker allows you to see if Redd's latest piece of art is legit or n
 
 **Link to project:** https://acnh.rebekahkitching.com 
 
-<img> src = 'added_dropdown.png' </img>
+<img> src = '/images/added_dropdown.png' </img>
 
 ## How It's Made:
 
